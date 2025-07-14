@@ -1,0 +1,28 @@
+.offcanvas-body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.menu {
+    width: 20vw;
+}
+
+.menu__links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.link {
+    background-color: rgb(53, 53, 53, 0.3);
+    width: 100%;
+    padding: 1vw;
+    color: var(--blue);
+    text-decoration: none;
+}
+.link:hover{
+    background-color: #0213f8;
+    color: white;
+}

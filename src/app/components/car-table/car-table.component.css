@@ -1,0 +1,23 @@
+table {
+    border-bottom: solid 3vh var(--dark-blue);
+    width: 100vw;
+}
+
+th {
+    background-color: rgb(4, 4, 170);
+    color: rgb(250, 250, 250);
+}
+
+th,
+td {
+    padding: 2vh;
+
+}
+
+th {
+    border: 1px solid black;
+}
+
+tfoot {
+    background-color: rgb(4, 4, 170);
+}

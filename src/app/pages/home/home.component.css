@@ -1,0 +1,52 @@
+/* Estiliza o corpo da página */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #fff;
+}
+
+/* Menu no canto superior esquerdo */
+.menu_btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+/* Seção principal com a imagem de fundo e conteúdo centralizado */
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    background-color: #fff;
+}
+
+/* Imagem do carro */
+.principal img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.8;
+}
+
+/* Componente de boas-vindas centralizado sobre a imagem */
+app-boas-vindas {
+    z-index: 1;
+    padding: 40px;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+}
+
+
+
+

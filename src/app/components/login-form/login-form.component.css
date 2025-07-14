@@ -1,0 +1,81 @@
+.forms-pai {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.img_logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.forms-pai h1 {
+    font-size: 20px;
+    color: #3CB371; /* verde */
+    margin-bottom: 20px;
+}
+
+.inputs_todos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 280px;
+}
+
+.input_primeiro,
+.input_segundo {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #fff;
+}
+
+.input_primeiro img,
+.input_segundo img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.input_primeiro input,
+.input_segundo input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+}
+
+.check_box {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    width: 280px;
+    font-size: 14px;
+    color: #555;
+}
+
+.check_box input {
+    margin-right: 8px;
+}
+
+.btn_entrar {
+    margin-top: 20px;
+    width: 280px;
+    padding: 10px;
+    background-color: #d3d3d3; /* cinza claro */
+    border: none;
+    border-radius: 4px;
+    color: #fffdfd;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn_entrar:hover {
+    background-color: #0818f0;
+    
+}

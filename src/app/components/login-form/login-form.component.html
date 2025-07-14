@@ -1,0 +1,30 @@
+<form [formGroup]="loginForm" (ngSubmit)="onSubmitLogin()" class="forms-pai">
+
+    <div>
+        <h1>Boas-Vindas</h1>
+        <img class="img_logo" src="icons/ford.png" alt="">
+    </div>
+    <div class="inputs_todos">
+        <div class="input_primeiro">
+            <img src="icons/perfil.png" alt="">
+            <input formControlName="nome" placeholder="Insira seu email" type="email" class="form-control"
+                id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+
+        <div class="input_segundo">
+            <img src="icons/trancar.png" alt="">
+            <input formControlName="senha" placeholder="Insira sua senha" type="password" class="form-control"
+                id="exampleInputPassword1">
+        </div>
+    </div>
+
+    <div class="check_box">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Logar automaticamente </label>
+    </div>
+
+    <button type="submit" class="btn_entrar btn-primary">Entrar</button>
+
+
+
+</form>
